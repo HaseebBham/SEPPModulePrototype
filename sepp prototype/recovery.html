@@ -12,8 +12,10 @@
     <div class="recovery-form-container">
       <h1 class="app-title">Recovery</h1>
       <p class="subtitle">Enter registered Email</p>
-      <form class="recovery-form" action="#" method="POST">
+      <form class="recovery-form" id="recoveryForm" action="#" method="POST">
         <input type="email" name="email" placeholder="Email" required>
+        <p class="error-msg" id="recoveryError" style="display:none;">Invalid email</p>
+        <p class="success-msg" id="recoverySuccess" style="display:none;">Code Sent</p>
         <button type="submit" class="primary-btn">Send Code</button>
       </form>
       <div class="social-login">
@@ -24,7 +26,9 @@
           <a href="#"><i class="fab fa-facebook-f"></i></a>
         </div>
       </div>
+      <a href="index.html" class="back-to-login">Back to Login</a>
     </div>
   </div>
+  <script src="main.js"></script>
 </body>
 </html>
