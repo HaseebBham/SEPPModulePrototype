@@ -3,249 +3,249 @@ const choreData = {
   "Week1": {
     "Monday": [
       {"Chore": "Vacuuming", "Student": "Rishab", "Time": "8:00 AM"},
-      {"Chore": "Laundry", "Student": "Munem", "Time": "10:00 AM"},
-      {"Chore": "Lunch Cooking", "Student": "Alag", "Time": "1:00 PM"},
+      {"Chore": "Laundry", "Student": "Monem", "Time": "10:00 AM"},
+      {"Chore": "Lunch Cooking", "Student": "Alagappan", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Haseeb", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"}
     ],
     "Tuesday": [
-      {"Chore": "Vacuuming", "Student": "Munem", "Time": "10:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Monem", "Time": "10:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
       {"Chore": "Lunch Cooking", "Student": "Rishab", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Alag", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Alagappan", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Haseeb", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Alag", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Alagappan", "Time": "9:00 PM"}
     ],
     "Wednesday": [
-      {"Chore": "Laundry", "Student": "Alag", "Time": "11:00 PM"},
+      {"Chore": "Laundry", "Student": "Alagappan", "Time": "11:00 PM"},
       {"Chore": "Vacuuming", "Student": "Haseeb", "Time": "12:00 AM"},
-      {"Chore": "Lunch Cooking", "Student": "Munem", "Time": "1:00 PM"},
+      {"Chore": "Lunch Cooking", "Student": "Monem", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Rishab", "Time": "5:00 PM"},
       {"Chore": "Grocery Shopping", "Student": "All Housemates", "Time": "6:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Alag", "Time": "8:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Alagappan", "Time": "8:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Haseeb", "Time": "9:00 PM"}
     ],
     "Thursday": [
       {"Chore": "Laundry", "Student": "Rishab", "Time": "9:00 AM"},
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Lunch Cooking", "Student": "Haseeb", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Munem", "Time": "5:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Munem", "Time": "7:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Monem", "Time": "5:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Monem", "Time": "7:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Rishab", "Time": "9:00 PM"}
     ],
     "Friday": [
       {"Chore": "Vacuuming", "Student": "Rishab", "Time": "9:00 AM"},
-      {"Chore": "Laundry", "Student": "Munem", "Time": "10:00 AM"},
-      {"Chore": "Lunch Cooking", "Student": "Alag", "Time": "1:00 PM"},
+      {"Chore": "Laundry", "Student": "Monem", "Time": "10:00 AM"},
+      {"Chore": "Lunch Cooking", "Student": "Alagappan", "Time": "1:00 PM"},
       {"Chore": "Bathroom Cleaning", "Student": "Haseeb", "Time": "4:00 PM"}, 
       {"Chore": "Dinner Cooking", "Student": "Haseeb", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"}// Weekly Chore
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"}// Weekly Chore
     ],
     "Saturday": [
-      {"Chore": "Vacuuming", "Student": "Munem", "Time": "10:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Monem", "Time": "10:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
       {"Chore": "Lunch Cooking", "Student": "Rishab", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Alag", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Alagappan", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Haseeb", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Alag", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Alagappan", "Time": "9:00 PM"}
     ],
     "Sunday": [
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
-      {"Chore": "Lunch Cooking", "Student": "Munem", "Time": "1:00 PM"},
+      {"Chore": "Lunch Cooking", "Student": "Monem", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Rishab", "Time": "5:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Alag", "Time": "7:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Alagappan", "Time": "7:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Haseeb", "Time": "9:00 PM"}// Weekly Chore
     ]
   },
   "Week2": {
     "Monday": [
-      {"Chore": "Vacuuming", "Student": "Munem", "Time": "10:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Monem", "Time": "10:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
       {"Chore": "CLunch Cooking", "Student": "Rishab", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Alag", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Alagappan", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Haseeb", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Alag", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Alagappan", "Time": "9:00 PM"}
     ],
     "Tuesday": [
-      {"Chore": "Laundry", "Student": "Alag", "Time": "11:00 PM"},
+      {"Chore": "Laundry", "Student": "Alagappan", "Time": "11:00 PM"},
       {"Chore": "Vacuuming", "Student": "Haseeb", "Time": "12:00 AM"},
-      {"Chore": "Lunch Cooking", "Student": "Munem", "Time": "1:00 PM"},
+      {"Chore": "Lunch Cooking", "Student": "Monem", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Rishab", "Time": "5:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Alag", "Time": "8:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Alagappan", "Time": "8:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Haseeb", "Time": "9:00 PM"}
     ],
     "Wednesday": [
       {"Chore": "Laundry", "Student": "Rishab", "Time": "9:00 AM"},
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Lunch Cooking", "Student": "Haseeb", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Munem", "Time": "4:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Monem", "Time": "4:00 PM"},
       {"Chore": "Grocery Shopping", "Student": "All Housemates", "Time": "6:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "8:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"}
     ],
     "Thursday": [
       {"Chore": "Vacuuming", "Student": "Rishab", "Time": "8:00 AM"},
-      {"Chore": "Laundry", "Student": "Munem", "Time": "10:00 AM"},
-      {"Chore": "Lunch Cooking", "Student": "Alag", "Time": "1:00 PM"},
+      {"Chore": "Laundry", "Student": "Monem", "Time": "10:00 AM"},
+      {"Chore": "Lunch Cooking", "Student": "Alagappan", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Haseeb", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "8:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"}
     ],
     "Friday": [
-      {"Chore": "Vacuuming", "Student": "Munem", "Time": "10:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Monem", "Time": "10:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
       {"Chore": "Lunch Cooking", "Student": "Rishab", "Time": "1:00 PM"},
-      {"Chore": "Bathroom Cleaning", "Student": "Alag", "Time": "3:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Alag", "Time": "5:00 PM"},
+      {"Chore": "Bathroom Cleaning", "Student": "Alagappan", "Time": "3:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Alagappan", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Haseeb", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Alag", "Time": "9:00 PM"} // Weekly Chore
+      {"Chore": "Trash Disposal", "Student": "Alagappan", "Time": "9:00 PM"} // Weekly Chore
     ],
     "Saturday": [
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
-      {"Chore": "Lunch Cooking", "Student": "Munem", "Time": "1:00 PM"},
+      {"Chore": "Lunch Cooking", "Student": "Monem", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Rishab", "Time": "5:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Alag", "Time": "7:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Alagappan", "Time": "7:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Haseeb", "Time": "9:00 PM"}
     ],
     "Sunday": [
       {"Chore": "Laundry", "Student": "Rishab", "Time": "9:00 AM"},
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Lunch Cooking", "Student": "Haseeb", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Munem", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Monem", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"} // Weekly Chore
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"} // Weekly Chore
     ]
   },
   "Week3": {
     "Monday": [
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
-      {"Chore": "Lunch Cooking", "Student": "Munem", "Time": "1:00 PM"},
+      {"Chore": "Lunch Cooking", "Student": "Monem", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Rishab", "Time": "5:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Alag", "Time": "7:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Alagappan", "Time": "7:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Haseeb", "Time": "9:00 PM"}
     ],
     "Tuesday": [
       {"Chore": "Laundry", "Student": "Rishab", "Time": "9:00 AM"},
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Lunch Cooking", "Student": "Haseeb", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Munem", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Monem", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"}
     ],
     "Wednesday": [
       {"Chore": "Vacuuming", "Student": "Rishab", "Time": "8:00 AM"},
-      {"Chore": "Laundry", "Student": "Munem", "Time": "10:00 AM"},
-      {"Chore": "Lunch Cooking", "Student": "Alag", "Time": "12:00 PM"},
+      {"Chore": "Laundry", "Student": "Monem", "Time": "10:00 AM"},
+      {"Chore": "Lunch Cooking", "Student": "Alagappan", "Time": "12:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Haseeb", "Time": "4:00 PM"},
       {"Chore": "Grocery Shopping", "Student": "All Housemates", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"}
     ],
     "Thursday": [
-      {"Chore": "Vacuuming", "Student": "Munem", "Time": "10:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Monem", "Time": "10:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
       {"Chore": "Lunch Cooking", "Student": "Rishab", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Alag", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Alagappan", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Haseeb", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Alag", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Alagappan", "Time": "9:00 PM"}
     ],
     "Friday": [
       {"Chore": "Bathroom Cleaning", "Student": "Rishab", "Time": "8:00 AM"},
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
-      {"Chore": "Lunch Cooking", "Student": "Munem", "Time": "1:00 PM"},
+      {"Chore": "Lunch Cooking", "Student": "Monem", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Rishab", "Time": "5:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Alag", "Time": "7:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Alagappan", "Time": "7:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Haseeb", "Time": "9:00 PM"} 
     ],
     "Saturday": [
       {"Chore": "Laundry", "Student": "Rishab", "Time": "9:00 AM"},
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Lunch Cooking", "Student": "Haseeb", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Munem", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Monem", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"}
     ],
     "Sunday": [
       {"Chore": "Vacuuming", "Student": "Rishab", "Time": "8:00 AM"},
-      {"Chore": "Laundry", "Student": "Munem", "Time": "10:00 AM"},
-      {"Chore": "Lunch Cooking", "Student": "Alag", "Time": "1:00 PM"},
+      {"Chore": "Laundry", "Student": "Monem", "Time": "10:00 AM"},
+      {"Chore": "Lunch Cooking", "Student": "Alagappan", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Haseeb", "Time": "5:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Munem", "Time": "7:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Monem", "Time": "7:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Rishab", "Time": "9:00 PM"} // Weekly Chore
     ]
   },
   "Week4": {
     "Monday": [
       {"Chore": "Laundry", "Student": "Rishab", "Time": "9:00 AM"},
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Lunch Cooking", "Student": "Haseeb", "Time": "12:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Munem", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Monem", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"}
     ],
     "Tuesday": [
       {"Chore": "Vacuuming", "Student": "Rishab", "Time": "8:00 AM"},
-      {"Chore": "Laundry", "Student": "Munem", "Time": "10:00 AM"},
-      {"Chore": "Lunch Cooking", "Student": "Alag", "Time": "1:00 PM"},
+      {"Chore": "Laundry", "Student": "Monem", "Time": "10:00 AM"},
+      {"Chore": "Lunch Cooking", "Student": "Alagappan", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Haseeb", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Mounem", "Time": "7:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Rishab", "Time": "9:00 PM"}
     ],
     "Wednesday": [
-      {"Chore": "Vacuuming", "Student": "Munem", "Time": "10:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Monem", "Time": "10:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
       {"Chore": "Lunch Cooking", "Student": "Rishab", "Time": "1:00 PM"},
       {"Chore": "Grocery Shopping", "Student": "All Housemates", "Time": "2:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Alag", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Alagappan", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Haseeb", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Alag", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Alagappan", "Time": "9:00 PM"}
     ],
     "Thursday": [
       {"Chore": "Bathroom Cleaning", "Student": "Rishab", "Time": "8:00 AM"},
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
-      {"Chore": "Lunch Cooking", "Student": "Munem", "Time": "1:00 PM"},
+      {"Chore": "Lunch Cooking", "Student": "Monem", "Time": "1:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Rishab", "Time": "5:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Alag", "Time": "7:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Alagappan", "Time": "7:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Haseeb", "Time": "9:00 PM"} 
     ],
   
     "Friday": [
-      {"Chore": "Bathroom Cleaning", "Student": "Munem", "Time": "10:00 AM"},
+      {"Chore": "Bathroom Cleaning", "Student": "Monem", "Time": "10:00 AM"},
       {"Chore": "Laundry", "Student": "Rishab", "Time": "8:00 AM"},
-      {"Chore": "Vacuuming", "Student": "Alag", "Time": "11:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Alagappan", "Time": "11:00 AM"},
       {"Chore": "Lunch Cooking", "Student": "Haseeb", "Time": "12:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Munem", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Monem", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Rishab", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Munem", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Monem", "Time": "9:00 PM"}
     ],
     "Saturday":[
       {"Chore": "Vacuuming", "Student": "Rishab", "Time": "8:00 AM"},
-      {"Chore": "Laundry", "Student": "Munem", "Time": "10:00 AM"},
-      {"Chore": "Lunch Cooking", "Student": "Alag", "Time": "12:00 PM"},
+      {"Chore": "Laundry", "Student": "Monem", "Time": "10:00 AM"},
+      {"Chore": "Lunch Cooking", "Student": "Alagappan", "Time": "12:00 PM"},
       {"Chore": "Dinner Cooking", "Student": "Haseeb", "Time": "5:00 PM"},
-      {"Chore": "Dishwashing", "Student": "Munem", "Time": "7:00 PM"},
+      {"Chore": "Dishwashing", "Student": "Monem", "Time": "7:00 PM"},
       {"Chore": "Trash Disposal", "Student": "Rishab", "Time": "9:00 PM"}
     ],
     "Sunday":[
-      {"Chore": "Vacuuming", "Student": "Munem", "Time": "10:00 AM"},
+      {"Chore": "Vacuuming", "Student": "Monem", "Time": "10:00 AM"},
       {"Chore": "Laundry", "Student": "Haseeb", "Time": "12:00 PM"},
       {"Chore": "Lunch Cooking", "Student": "Rishab", "Time": "1:00 PM"},
-      {"Chore": "Dinner Cooking", "Student": "Alag", "Time": "5:00 PM"},
+      {"Chore": "Dinner Cooking", "Student": "Alagappan", "Time": "5:00 PM"},
       {"Chore": "Dishwashing", "Student": "Haseeb", "Time": "7:00 PM"},
-      {"Chore": "Trash Disposal", "Student": "Alag", "Time": "9:00 PM"}
+      {"Chore": "Trash Disposal", "Student": "Alagappan", "Time": "9:00 PM"}
     ]
   }
 };
 
 // List of available students for random assignment
-const students = ["Rishab", "Monem", "Alag", "Haseeb"];
+const students = ["Rishab", "Monem", "Alagappan", "Haseeb"];
 
 // Execute after the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
