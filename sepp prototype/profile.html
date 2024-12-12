@@ -5,34 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SSH Chore Tracker - Profile Selector</title>
   <link rel="stylesheet" href="styles.css"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
 </head>
 <body class="profile-body">
+  <div class="loading-overlay" id="loadingOverlay" style="display:none;">
+    <div class="spinner"></div>
+    <p>Generating schedules...</p>
+  </div>
+  
   <div class="container profile-container">
     <header>
-      <a href="index.html" class="back-btn"><i class="fas fa-arrow-left"></i></a>
+      <a href="index.html" class="back-btn">←</a>
       <h1 class="page-title">SSH Chore Tracker</h1>
     </header>
     <div class="profile-list">
-      <!-- Profiles bigger and centered -->
       <div class="profile-card" data-profile="Rishab">
-        <div class="profile-icon"><i class="fas fa-user"></i></div>
+        <div class="profile-icon">
+          <img src="assets/profile-icon.png" alt="Profile Icon" />
+        </div>
         <p class="profile-name">Rishab</p>
       </div>
       <div class="profile-card" data-profile="Monem">
-        <div class="profile-icon"><i class="fas fa-user"></i></div>
+        <div class="profile-icon">
+          <img src="assets/profile-icon.png" alt="Profile Icon" />
+        </div>
         <p class="profile-name">Monem</p>
       </div>
-      <div class="profile-card" data-profile="Alag">
-        <div class="profile-icon"><i class="fas fa-user"></i></div>
-        <p class="profile-name">Alag</p>
+      <div class="profile-card" data-profile="Alagappan">
+        <div class="profile-icon">
+          <img src="assets/profile-icon.png" alt="Profile Icon" />
+        </div>
+        <p class="profile-name">Alagappan</p>
       </div>
       <div class="profile-card" data-profile="Haseeb">
-        <div class="profile-icon"><i class="fas fa-user"></i></div>
+        <div class="profile-icon">
+          <img src="assets/profile-icon.png" alt="Profile Icon" />
+        </div>
         <p class="profile-name">Haseeb</p>
       </div>
     </div>
   </div>
   <script src="main.js"></script>
+  <script>
+    // After selecting a profile, show loading overlay, then redirect
+    document.querySelectorAll(".profile-card").forEach(card => {
+      card.addEventListener("click", () => {
+        const profileName = card.dataset.profile;
+        localStorage.setItem("selectedProfileName", profileName);
+        const loadingOverlay = document.getElementById("loadingOverlay");
+        if (loadingOverlay) {
+          loadingOverlay.style.display = "flex";
+        }
+        setTimeout(() => {
+          window.location.href = "userprofile.html";
+        }, 2000);
+      });
+    });
+  </script>
 </body>
 </html>
