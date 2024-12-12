@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SSH Chore Tracker - Login</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body class="login-body">
+  <div class="container login-container">
+    <div class="login-image">
+      <img src="assets/login-image.png" alt="Login Image" style="max-width: 100%; border-radius: 50%;">
+    </div>
+    <div class="login-form-container">
+      <!-- Added Brand Name -->
+      <h1 class="brand-title" style="text-align: center; margin-bottom: 20px; font-size: 3em; font-weight: bold; font-family: 'Arial', sans-serif;">
+        SSH House Chores Tracker
+      </h1>
+      <h1 class="app-title">Login</h1>
+      <p class="subtitle">Sign in to your house</p>
+      <form class="login-form" action="#" method="POST" id="loginForm">
+        <input type="text" name="username" placeholder="User" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <p class="error-msg" id="errorMessage" style="display:none;">Wrong username or password</p>
+        <a href="recovery.html" class="forgot-link">Forgot Password?</a>
+        <button type="submit" class="primary-btn">Login</button>
+      </form>
+      <div class="social-login">
+        <p>or continue with</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-google"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <p>Refer to the Documentation for Username and Password</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
