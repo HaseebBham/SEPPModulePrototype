@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SSH Chore Tracker - Recovery</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body class="recovery-body">
+  <div class="container recovery-container">
+    <div class="recovery-form-container">
+      <h1 class="app-title">Recovery</h1>
+      <p class="subtitle">Enter registered Email</p>
+      <form class="recovery-form" id="recoveryForm" action="#" method="POST">
+        <input type="email" name="email" placeholder="Email" required>
+        <p class="error-msg" id="recoveryError" style="display:none;">Invalid email</p>
+        <p class="success-msg" id="recoverySuccess" style="display:none;">Code Sent</p>
+        <button type="submit" class="primary-btn">Send Code</button>
+      </form>
+      <div class="social-login">
+        <p>or continue with</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-google"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <a href="index.html" class="back-to-login">Back to Login</a>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

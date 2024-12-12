@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SSH Chore Tracker - User Profile</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body class="listing-body">
+  <div class="container">
+    <header class="top-header">
+      <a href="profile.html" class="back-btn">←</a>
+      <h1 class="page-title">SSH Chore Tracker</h1>
+      <button class="export-btn">Export Profile Data</button>
+    </header>
+    
+    <!-- Center icon and name side by side -->
+    <div class="user-profile-section">
+      <div class="profile-icon-large">
+        <img src="assets/profile-icon.png" alt="Profile Icon" />
+      </div>
+      <h2 class="selected-profile-name" id="profileNameDisplay"></h2>
+    </div>
+    
+    <!-- Individual-Based Chore Display -->
+    <div class="snippet-section">
+      <h3>Individual Chores</h3>
+      <div class="weekly-section">
+        <div class="week-buttons" id="individualWeekButtons">
+          <button id="individualWeek1" class="active">Week 1</button>
+          <button id="individualWeek2">Week 2</button>
+          <button id="individualWeek3">Week 3</button>
+          <button id="individualWeek4">Week 4</button>
+          <!-- Removed Week 4 Button -->
+        </div>
+        <div id="individualDayButtons" class="day-buttons" style="display:none;"></div>
+        <div id="individualMessage" class="week-message"></div>
+      </div>
+    </div>
+
+    <!-- Group-Based Chore Display -->
+    <div class="outlined-section">
+      <h3>All Housemates Chores</h3>
+      <div class="main-content">
+        <aside class="week-selector">
+          <h2>Week</h2>
+          <ul id="groupWeekList">
+            <li><a href="#" class="active" data-week="W1">Week1</a></li>
+            <li><a href="#" data-week="W2">Week2</a></li>
+            <li><a href="#" data-week="W3">Week3</a></li>
+            <li><a href="#" data-week="W4">Week4</a></li>
+          </ul>
+        </aside>
+
+        <aside class="day-selector">
+          <h2>Day</h2>
+          <ul id="groupDayList">
+            <li><a href="#" class="active" data-day="Mon">Mon</a></li>
+            <li><a href="#" data-day="Tue">Tue</a></li>
+            <li><a href="#" data-day="Wed">Wed</a></li>
+            <li><a href="#" data-day="Thu">Thu</a></li>
+            <li><a href="#" data-day="Fri">Fri</a></li>
+            <li><a href="#" data-day="Sat">Sat</a></li>
+            <li><a href="#" data-day="Sun">Sun</a></li>
+          </ul>
+        </aside>
+
+        <div class="table-section">
+          <div class="table-actions">
+            <div class="search-box">
+              <input type="text" placeholder="Search...">
+            </div>
+          </div>
+          
+          <table class="chore-table" id="groupChoreTable">
+            <thead>
+              <tr>
+                <th>Chore</th>
+                <th>Student</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Dynamically populated -->
+            </tbody>
+          </table>
+          
+          <div class="pagination">
+            <button disabled>Previous</button>
+            <button class="active">1</button>
+            <button>2</button>
+            <button>Next</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include main.js -->
+  <script src="main.js"></script>
+</body>
+</html>
